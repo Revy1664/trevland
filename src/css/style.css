@@ -14,7 +14,7 @@ ul, ol {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -37,6 +37,25 @@ ul, ol {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.title {
+    color: rgba(0, 0, 0, 1);
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 55px;
+    text-align: center;
+}
+
+.subtitle {
+    /* margin-top: 20px; */
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin: 20px 200px 0 200px;
 }
 
 .header__wrapper {
@@ -82,17 +101,56 @@ ul, ol {
     font-weight: 700;
     line-height: 83px;
     letter-spacing: 0%;
+    max-width: 800px;
 }
 
 .main__text {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 18px;
     font-weight: 300;
-    line-height: 21px;
+    line-height: 28px;
     margin-top: 30px;
+    max-width: 460px;
 }
 
 .main__btn {
     margin-top: 40px;
     padding: 18px 46px 17px 47px;
+}
+
+.locations {
+    padding: 140px 0px;
+}
+
+.locations__wrapper {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.locations__item-text {
+    margin-top: -5px;
+    text-align: center;
+    padding: 35px 27px 37px 27px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 6px 35px 0 rgba(0, 0, 0, 0.08);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.locations__item-text h3 {
+    font-family: Gelasio;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.locations__item-text p {
+    margin-top: 10px;
+    max-width: 290px;
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    line-height: 21px;
 }
