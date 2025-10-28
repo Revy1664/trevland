@@ -49,13 +49,27 @@ ul, ol {
 }
 
 .subtitle {
-    /* margin-top: 20px; */
     color: rgba(0, 0, 0, 0.6);
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
     text-align: center;
     margin: 20px 200px 0 200px;
+}
+
+.location__title {
+    font-family: Gelasio;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.semitransparent {
+    opacity: 0.6;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .header__wrapper {
@@ -119,7 +133,7 @@ ul, ol {
 }
 
 .locations {
-    padding: 140px 0px;
+    padding: 140px 0px 0px 0px;
 }
 
 .locations__wrapper {
@@ -139,13 +153,6 @@ ul, ol {
     background-color: rgba(255, 255, 255, 1);
 }
 
-.locations__item-text h3 {
-    font-family: Gelasio;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30px;
-}
-
 .locations__item-text p {
     margin-top: 10px;
     max-width: 290px;
@@ -153,4 +160,66 @@ ul, ol {
     color: rgba(0, 0, 0, 0.6);
     font-weight: 400;
     line-height: 21px;
+}
+
+.offers {
+    padding: 140px 0px;
+}
+
+.offers__wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__item h3 {
+    margin-top: 20px;
+}
+
+.offers__info {
+    margin-top: 8px;
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.country span {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+
+.rating span {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.country, .rating {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+
+.duration {
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.price {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
 }
